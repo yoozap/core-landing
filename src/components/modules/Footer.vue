@@ -311,7 +311,7 @@ export default {
   .join_container.container{
     display: none;
   }
-  .home-page ~ .footer__main .join_container.container{
+  .home-page ~ .footer__main .join_container.container,.community-page ~ .footer__main .join_container.container,.proposal-page ~ .footer__main .join_container.container{
     display: flex;
   }
   .footer__last-nav a{

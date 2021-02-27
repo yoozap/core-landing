@@ -1,5 +1,5 @@
 <template>
-  <div class="body-container">
+  <div class="body-container community-page">
     <CommunityMain/>
   </div>
 </template>

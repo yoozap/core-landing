@@ -1,5 +1,5 @@
 <template>
-  <div class="body-container">
+  <div class="body-container proposal-page">
     <Proposals/>
   </div>
 </template>
