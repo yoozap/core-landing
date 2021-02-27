@@ -193,7 +193,11 @@
           </div>
         </div>
         <div class="footerText">
-          Disclaimer: CORE is a software platform ONLY and does not conduct any independent diligence on or substantive review of any blockchain asset, digital currency, cryptocurrency or associated funds. You are fully and solely responsible for evaluating your investments, for determining whether you will exchange blockchain assets based on your own, and for all your decisions as to whether to exchange blockchain assets with CORE. In many cases, blockchain assets you exchange on the basis of your research may not increase in value, and may decrease in value. Similarly, blockchain assets you exchange on the basis of your research may increase in value after your exchange. Past performance is not indicative of future results. Any investment in blockchain assets involves the risk of loss of part or all of your investment. The value of the blockchain assets you exchange is subject to market and other investment risks
+          Disclaimer: Nothing in this Website shall be deemed to constitute a prospectus of any sort or a solicitation for investment, nor does it in any way pertain to an offering or a solicitation of an offer to buy any securities in any jurisdiction.All of the information provided within this Website is provided “as is” and with no warranties. coremultichain.com makes no representations and extends no warranties of any type to the accuracy or completeness of any information or content on this Website. Like any blockchain technology, the acquisition of tokens is associated with a high financial risk level. All contributions are made at your discretion, and you are solely responsible before the time of contributions for determining all possible risks and doing your due diligence. CORE is a software platform ONLY. In no event shall www.coremultichain.com or its subcontractors be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use of this platform.
+          <br>
+          Note: Our team is committed to enhancing this website, and this is an on-going process. We will have more exciting content and include it as early as possible.
+          Every great piece of technology is continuously evolving to unlock its full potential.
+          We will post all stages of the progress on this website.
         </div>
         <div class="footer__last">
           <div class="footer__last-copy">© 2021 CORE Multi-Chain</div>
@@ -233,23 +237,23 @@ export default {
         },
         {
           id: 2,
-          title: 'Tokenomics',
-          route: '/tokenomics'
-        },
-        {
-          id: 3,
-          title: 'Roadmap',
-          route: '/roadmap'
-        },
-        {
-          id: 4,
           title: 'Technology',
           route: '/technology'
         },
         {
-          id: 5,
+          id: 3,
           title: 'Community',
           route: '/community'
+        },
+        {
+          id: 4,
+          title: 'Roadmap',
+          route: '/roadmap'
+        },
+        {
+          id: 5,
+          title: 'Tokenomics',
+          route: '/tokenomics'
         }
       ]
     }
@@ -419,8 +423,8 @@ export default {
   }
   .footerText{
     padding: 50px 0px;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 16px;
     color: rgba(255,255,255,.3);
     border-top: 1px solid rgba(255,255,255,.05);
     border-bottom: 1px solid rgba(255,255,255,.05);

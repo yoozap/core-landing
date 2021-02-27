@@ -137,23 +137,23 @@ export default {
         },
         {
           id: 2,
-          title: 'Tokenomics',
-          route: '/tokenomics'
-        },
-        {
-          id: 3,
-          title: 'Roadmap',
-          route: '/roadmap'
-        },
-        {
-          id: 4,
           title: 'Technology',
           route: '/technology'
         },
         {
-          id: 5,
+          id: 3,
           title: 'Community',
           route: '/community'
+        },
+        {
+          id: 4,
+          title: 'Roadmap',
+          route: '/roadmap'
+        },
+        {
+          id: 5,
+          title: 'Tokenomics',
+          route: '/tokenomics'
         }
       ]
     }
