@@ -11,7 +11,7 @@
       </div>
       <div class="container proposals_main" data-aos="fade-up">
         <div class="proposals_subtext">
-          Hypercube is centred around its community and wants the developer, science, and academic communities to help make our ecosystem better by submitting idea proposals.
+          CORE is centred around its community and wants the developer, science, and academic communities to help make our ecosystem better by submitting idea proposals.
         </div>
         <div class="proposals_text">
           These proposals can be related to any-blockchain related topics such as:

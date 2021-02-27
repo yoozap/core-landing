@@ -370,6 +370,10 @@ export default {
     background: #00050F;
     z-index: 2;
   }
+  .community__horizontal-ttl{
+    position: relative;
+    z-index: 2;
+  }
   /*Laptop 1440*/
   @media (max-width: 1900px){
     .main-container__header{
@@ -454,6 +458,9 @@ export default {
   }
   /*Mobile 320*/
   @media (max-width: 767px){
+    .community__circle{
+      transform: scale(.7) translateX(-78%);
+    }
     .community__vertical-ttl{
       margin-right: 20px;
     }
