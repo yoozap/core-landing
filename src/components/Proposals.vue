@@ -35,6 +35,9 @@
             <li>Edge Computing</li>
             <li>5G and Beyond</li>
           </ul>
+          <div class="proposals_text">
+            Please submit your proposal on or before Monday 10 May 2021 at 18:00h GMT to <a target="_blank" href="mailto:community@coremultichain.com">community@coremultichain.com</a>
+          </div>
         </div>
       </div>
     </div>
@@ -66,6 +69,24 @@ export default {
 }
 </script>
 <style scoped>
+  .proposals_li .proposals_text{
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+    font-size: 13px;
+    opacity: 1;
+    line-height: 20px;
+    color: rgba(255,255,255,.5);
+  }
+  .proposals_li .proposals_text a{
+    color: #fff;
+    transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+    margin-left: 5px;
+    font-size: inherit;
+  }
+  .proposals_li .proposals_text a:hover{
+    color: #ff7152;
+  }
   @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
   @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
   @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
@@ -119,7 +140,7 @@ export default {
     margin-left: 100px;
   }
   .proposals_li li{
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 25px;
     position: relative;
     margin-bottom: 15px;
@@ -127,11 +148,11 @@ export default {
   .proposals_li li:after{
     background: #0500FF;
     content: '';
-    height: 10px;
-    width: 10px;
+    height: 8px;
+    width: 8px;
     display: flex;
     position: absolute;
-    top: 14px;
+    top: 6px;
     left: 0px;
     border-radius: 50%;
   }
@@ -249,6 +270,9 @@ export default {
       padding-bottom: 60px;
       padding-right: 75px;
     }
+    .proposals_li .proposals_text{
+      width: 60%;
+    }
   }
   /*Ipad 768*/
   @media (max-width: 1023px){
@@ -296,9 +320,22 @@ export default {
     .scroll-down{
       display: none;
     }
+    .proposals_li .proposals_text{
+      width: 100%;
+    }
   }
   /*Mobile 320*/
   @media (max-width: 767px){
+    .proposals_li li{
+      font-size: 15px;
+      padding-left: 20px;
+    }
+    .proposals_li{
+      padding: 25px;
+    }
+    .proposals_li .proposals_text a{
+      margin-left: 0px;
+    }
     .proposals_text{
       position: relative;
       z-index: 2;

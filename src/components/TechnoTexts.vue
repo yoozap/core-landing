@@ -5,7 +5,7 @@
         <span class="font-51">Other</span>
         <span class="font-51">Features</span>
       </h2>
-    <div data-aos="fade-up" class="techno-text__inner">
+    <div data-aos="fade-up" class="wh__bg techno-text__inner">
       <h3 class="techno-text__title">
         <span>1.</span>CORE Bridge
       </h3>
@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div data-aos="fade-up" class="techno-text__inner">
+    <div data-aos="fade-up" class="wh__bg techno-text__inner">
         <h3 class="techno-text__title">
           <span>2.</span>CORE Universal Block Explorer
         </h3>
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-    <div data-aos="fade-up" class="techno-text__inner wh__bg">
+    <div data-aos="fade-up" class="wh__bg techno-text__inner">
         <div class="techno-text__double-inner">
           <div class="techno-text__double col">
             <h3 class="techno-text__title">
@@ -41,7 +41,7 @@
           </div>
         </div>
       </div>
-      <div data-aos="fade-up" class="techno-text__inner">
+    <div data-aos="fade-up" class="wh__bg techno-text__inner">
         <div class="techno-text__double-inner col">
           <div class="techno-text__double">
             <h3 class="techno-text__title">
@@ -56,7 +56,7 @@
           <div class="techno-text__txt">CORE provides an efficient and simple access point for developers to retrieve off-chain data, similar to Oracles. CORE's data solution enables decentralized-apps and smart contracts on the CORE chain  to use data from other CORE-linked chains and the the major blockchains.</div>
         </div>
       </div>
-      <div data-aos="fade-up" class="techno-text__inner">
+    <div data-aos="fade-up" class="wh__bg techno-text__inner">
         <h3 class="techno-text__title">
           <span>5.</span>Universal blockchain Access API for Developers
         </h3>
