@@ -94,6 +94,9 @@
                 <li>Distributed file system developers</li>
                 <li>Bridge integrators</li>
               </ul>
+              <div class="proposals_text">
+                Please submit your proposal on or before Monday 10 May 2021 at 18:00h GMT to <a target="_blank" href="mailto:community@coremultichain.com">community@coremultichain.com</a>
+              </div>
             </div>
           </div>
         </div>
@@ -127,6 +130,24 @@ export default {
 }
 </script>
 <style scoped>
+  .proposals_text{
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+    font-size: 13px;
+    opacity: 1;
+    line-height: 20px;
+    color: rgba(255,255,255,.5);
+  }
+  .proposals_text a{
+    color: #fff;
+    transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+    margin-left: 5px;
+    font-size: inherit;
+  }
+  .proposals_text a:hover{
+    color: #ff7152;
+  }
   .community__circle2{
     margin-left: auto;
     transform: translateX(43vw);
@@ -385,6 +406,9 @@ export default {
   }
   /*Ipad Pro 1024*/
   @media (max-width: 1300px){
+    .proposals_text{
+      width: 60%;
+    }
     .main-container__description{
       padding-left: 25px;
     }
@@ -458,6 +482,12 @@ export default {
   }
   /*Mobile 320*/
   @media (max-width: 767px){
+    .proposals_text{
+      width: 100%;
+    }
+    .proposals_text a{
+      margin-left: 0px;
+    }
     .community__circle{
       transform: scale(.7) translateX(-78%);
     }

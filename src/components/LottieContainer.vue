@@ -20,7 +20,7 @@
           />
           <div class="lottie-container__item-description">
             <div class="ttl">Scalability</div>
-            <div class="txt">This is on of the main reasons that blockchain technology cannot be used on a mass-adoption scale yet. Low throughput and its environmental impact are the biggest obstacles that blockchain has to overcome in order to scale.</div>
+            <div class="txt">This is one of the main reasons that blockchain technology cannot be used on a mass-adoption scale yet. Low throughput and its environmental impact are the biggest obstacles that blockchain has to overcome in order to scale.</div>
           </div>
         </div>
           <div class="lottie-container__item-descr" data-aos="fade-up">
