@@ -221,12 +221,12 @@
     },
     {
       "id": 5,
-      "title": "Rust",
-      "text": "CORE relay chain is built with Substrate, a blockchain-building framework that is the distillation of Parity Technologies’ learnings building Ethereum, Bitcoin, and enterprise blockchains.<br/><br/> CORE state machine is compiled to WebAssembly (Wasm), a super performant virtual environment. Wasm is developed by major companies, including Google, Apple, Microsoft, and Mozilla, that have created a large ecosystem of support for the standard."
+      "title": "Programming Languages",
+      "text": "To bring it all together, we use Rust, Haskell, C++,  and Golang to program everything. These programming languages are the most advanced in the market and provide high speeds and robust performance. All of this combined makes the Apeirogon framework a high-speed, and robust solution."
     },
     {
       "id": 6,
-      "title": "C++",
+      "title": "Programming Languages",
       "text": "To bring it all together, we use Rust, Haskell, C++,  and Golang to program everything. These programming languages are the most advanced in the market and provide high speeds and robust performance. All of this combined makes the Apeirogon framework a high-speed, and robust solution."
     }
   ]
