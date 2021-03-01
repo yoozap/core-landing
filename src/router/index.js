@@ -10,6 +10,7 @@ import Roadmap from '../views/Roadmap.vue'
 import Privacy from '../views/Privacy.vue'
 import Proposals from '../views/Proposals.vue'
 import Community from '../views/Community.vue'
+import Wiki from '../views/Wiki.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -71,7 +72,20 @@ const routes = [
     name: 'Community',
     component: Community,
     meta: { scrollToTop: true }
-  }
+  },
+  {
+    path: '/wiki',
+    component: Wiki,
+    name: 'wiki',
+    children: [
+        {
+            path: ':sectionName',
+            name: 'wiki',
+            component: Wiki
+        }
+    ],
+    meta: { scrollToTop: true }
+  },
 ]
 
 const router = new VueRouter({

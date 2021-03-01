@@ -229,5 +229,82 @@
       "title": "Programming Languages",
       "text": "To bring it all together, we use Rust, Haskell, C++,  and Golang to program everything. These programming languages are the most advanced in the market and provide high speeds and robust performance. All of this combined makes the Apeirogon framework a high-speed, and robust solution."
     }
+  ],
+  "wiki": [
+    {
+      "id": 1,
+      "category": "General",
+      "list":[
+        {
+          "id": 1,
+          "navItem": "Getting Started",
+          "url": "link1",
+          "list":[
+            {
+              "id": 1,
+              "title": "Getting Started",
+              "url": "url1",
+              "html": "<h2>Getting Started</h2><p>Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
+              "list":[
+                {
+                  "id": 1,
+                  "title": "What is Polkadot?",
+                  "url": "url2", 
+                  "html": "<h2>What is Polkadot?</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p> <ul><li>some text</li><li>some text</li><li>some text</li></ul><a>some links</a>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "navItem": "Claims",
+          "url": "link2",
+          "list":[
+            {
+              "id": 1,
+              "title": "Making a Claim",
+              "url": "url3",
+              "html": "<h2>Making a Claim</h2><p>If you did not make a claim in the pre-genesis claims period, then you are able to claim your DOT tokens after genesis. There is no time limit for making your claim so feel free to do this whenever you are most comfortable. Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
+              "list":[
+                {
+                  "id": 1,
+                  "title": "What You Will Need",
+                  "url": "url4", 
+                  "html": "<h2>What is Polkadot?</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": "Learn",
+      "list":[
+        {
+          "id": 1,
+          "navItem": "Polkadot Launch Phases",
+          "url": "link3",
+          "list":[
+            {
+              "id": 1,
+              "title": "The PoA Launch",
+              "url": "url5",
+              "html": "<h2>The PoA Launch</h2><p>Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
+              "list":[
+                {
+                  "id": 1,
+                  "title": "Nominated Proof of Stake",
+                  "url": "url6", 
+                  "html": "<h2>Nominated Proof of Stake</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

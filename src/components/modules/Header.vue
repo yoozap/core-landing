@@ -141,6 +141,11 @@ export default {
           id: 5,
           title: 'Tokenomics',
           route: '/tokenomics'
+        },
+        {
+          id: 5,
+          title: 'Wiki',
+          route: '/wiki'
         }
       ]
     }

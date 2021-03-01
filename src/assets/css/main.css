@@ -32,7 +32,7 @@ body {
     text-size-adjust: 100%;
     /*padding-bottom: 200vh;*/
     background: #00050F;
-    overflow: hidden;
+   /*dont use overflow hidden to body*/
 }
 ul,li,p,img,h1,h2,h3,h4,h5,h6,input,button,nav {
     padding: 0;
