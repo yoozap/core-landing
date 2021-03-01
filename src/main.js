@@ -15,6 +15,20 @@ import VueApexCharts from 'vue-apexcharts'
 import VueCountdown from '@chenfengyuan/vue-countdown'
 import VuePrlx from 'vue-prlx'
 import SlideUpDown from 'vue-slide-up-down'
+import VueScrollactive from 'vue-scrollactive'
+import VueMq from 'vue-mq'
+
+Vue.use(VueMq,{
+  breakpoints: {
+    phone: 768,
+    tablet: 1023,
+    md: 1366,
+    lg: 1367,
+  },defaultBreakpoint: 'sm' // customize this for SSR
+})
+ 
+Vue.use(VueScrollactive)
+Vue.component('slide-up-down', SlideUpDown)
 Vue.component('slide-up-down', SlideUpDown)
 Vue.use(VuePrlx)
 Vue.component(VueCountdown.name, VueCountdown)
