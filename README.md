@@ -1,4 +1,4 @@
-# unium
+# CORE
 
 ## Project setup
 ```

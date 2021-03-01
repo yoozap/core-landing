@@ -78,7 +78,7 @@
                 <div class="chart-container__description">
                   <div class="color" style="background: #FF8D4D"></div>
                   <div class="title descr">Marketing & Operations</div>
-                  <div class="text descr">1,000,000,0000 CMCX (10%)</div>
+                  <div class="text descr">1,000,000,0000 CMCX (5%)</div>
                 </div>
                 <div class="chart-container__description">
                   <div class="color" style="background: #E2DD5D"></div>
@@ -123,7 +123,7 @@ export default {
           prevEl: '.prev'
         }
       },
-      series: [30, 20, 20, 10, 10, 6, 4, 6],
+      series: [30, 20, 20, 10, 5, 6, 4, 6],
       chartOptions: {
         chart: {
           type: 'radialBar'

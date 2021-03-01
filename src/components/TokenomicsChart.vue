@@ -29,37 +29,37 @@
           <div class="chart-container__description">
             <div class="color" style="border-color: #817EFF"></div>
             <div class="title descr">Seed Round (Private Founders)</div>
-            <div class="text descr">4,000,000,0000 CMCX (20%)</div>
+            <div class="text descr">4,000,000,000 CMCX (20%)</div>
           </div>
           <div class="chart-container__description">
             <div class="color" style="border-color: #D5D5FF"></div>
             <div class="title descr">IEO</div>
-            <div class="text descr">4,000,000,0000 CMCX (20%)</div>
+            <div class="text descr">4,000,000,000 CMCX (20%)</div>
           </div>
           <div class="chart-container__description">
             <div class="color" style="border-color: #FFBB95"></div>
             <div class="title descr">Ecosystem Rewards</div>
-            <div class="text descr">2,000,000,0000 CMCX (10%)</div>
+            <div class="text descr">2,000,000,000 CMCX (10%)</div>
           </div>
           <div class="chart-container__description">
             <div class="color" style="border-color: #FF8D4D"></div>
             <div class="title descr">Marketing & Operations</div>
-            <div class="text descr">1,000,000,0000 CMCX (10%)</div>
+            <div class="text descr">1,000,000,000 CMCX (5%)</div>
           </div>
           <div class="chart-container__description">
             <div class="color" style="border-color: #E2DD5D"></div>
             <div class="title descr">Advisory Board</div>
-            <div class="text descr">600,000,0000 CMCX (3%)</div>
+            <div class="text descr">600,000,000 CMCX (3%)</div>
           </div>
           <div class="chart-container__description">
             <div class="color" style="border-color: #4ECB6A"></div>
             <div class="title descr">Strategic Acquisitions</div>
-            <div class="text descr">400,000,0000 CMCX (2%)</div>
+            <div class="text descr">400,000,000 CMCX (2%)</div>
           </div>
           <div class="chart-container__description">
             <div class="color" style="border-color: #99FFB0"></div>
             <div class="title descr">Team</div>
-            <div class="text descr">2,000,000,0000 CMCX (10%)</div>
+            <div class="text descr">2,000,000,000 CMCX (10%)</div>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ export default {
   },
   data () {
     return {
-      series: [30, 20, 20, 10, 10, 6, 4, 6],
+      series: [30, 20, 20, 10, 15, 6, 4, 6],
       chartOptions: {
         chart: {
           type: 'radialBar'
