@@ -11,6 +11,7 @@ import Privacy from '../views/Privacy.vue'
 import Proposals from '../views/Proposals.vue'
 import Community from '../views/Community.vue'
 import Wiki from '../views/Wiki.vue'
+import Blog from '../views/Blog.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -84,6 +85,12 @@ const routes = [
             component: Wiki
         }
     ],
+    meta: { scrollToTop: true }
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: Blog,
     meta: { scrollToTop: true }
   },
 ]

@@ -306,5 +306,61 @@
         }
       ]
     }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "banner": "false",
+      "link": "#",
+      "title": "Gain Privacy with the Encrypted Blob",
+      "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
+      "date": "February 23, 2021",
+      "img": ""
+    },
+    {
+      "id": 2,
+      "banner": "false",
+      "link": "#",
+      "title": "Reveal Confidential Transactions with Blockstream Explorer",
+      "text": "With the most recent updates to Blockstream Explorer and Blockstream Green, you can now “unblind” any transaction (reveal the asset...",
+      "date": "February 3, 2021",
+      "img": ""
+    },
+    {
+      "id": 3,
+      "banner": "false",
+      "link": "#",
+      "title": "Gain Privacy with the Encrypted Blob",
+      "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
+      "date": "February 23, 2021",
+      "img": ""
+    },
+    {
+      "id": 4,
+      "banner": "false",
+      "link": "#",
+      "title": "Gain Privacy with the Encrypted Blob",
+      "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
+      "date": "February 23, 2021",
+      "img": ""
+    },
+    {
+      "id": 5,
+      "banner": "true",
+      "link": "",
+      "title": "Gain Privacy with the Encrypted Blob",
+      "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
+      "date": "February 23, 2021",
+      "img": "@/assets/img/tab1.jpg"
+    },
+    {
+      "id": 6,
+      "banner": "false",
+      "link": "#",
+      "title": "Gain Privacy with the Encrypted Blob",
+      "text": "Using changes added in GDK 0.0.39, we’ve added support for end-to-end encrypted client data—the 'encrypted blob'.",
+      "date": "February 23, 2021",
+      "img": ""
+    }
   ]
 }

@@ -143,9 +143,14 @@ export default {
           route: '/tokenomics'
         },
         {
-          id: 5,
+          id: 6,
           title: 'Wiki',
           route: '/wiki'
+        },
+        {
+          id: 7,
+          title: 'Blog',
+          route: '/blog'
         }
       ]
     }
