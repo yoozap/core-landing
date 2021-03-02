@@ -146,6 +146,11 @@ export default {
           id: 6,
           title: 'Wiki',
           route: '/wiki'
+        },
+        {
+          id: 7,
+          title: 'Research Areas',
+          route: '/research-areas'
         }
       ]
     }

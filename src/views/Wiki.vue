@@ -5,7 +5,7 @@
 	      	<div class="wiki">
 	      		<div class="wiki__menu">
               <div class="wiki__menu-top">
-                <div class="wiki__menu-burger" 
+                <div class="wiki__menu-burger"
                   @click="burgerActive = !burgerActive"
                   :class="{active:burgerActive}">
                   <span class="line1"></span>
@@ -16,7 +16,7 @@
               </div>
               <slide-up-down :active="burgerActive" :duration="1000">
                 <div class="wiki__menu-item-list">
-    	      			<div class="wiki__menu-item" v-for="(tab, index) in itemData" 
+    	      			<div class="wiki__menu-item" v-for="(tab, index) in itemData"
                     :class="{active: active == index}">
     	      				<div class="wiki__menu-head" @click="toggleActive(index)">
     	      					<h3 :class="{active: chousenCategory == index}">{{tab.category}}</h3>
@@ -25,12 +25,12 @@
                         <line x1="24" y1="12" x2="-8.74228e-08" y2="12" stroke="white" stroke-width="2"/>
                       </svg>
     	      				</div>
-    	      				<slide-up-down class="wiki__menu-list" 
+    	      				<slide-up-down class="wiki__menu-list"
                       :active="active == index" :duration="1000">
                       <div>
 
-      	      					<router-link v-for="(link , linkIndex) in tab.list"
-                           :to="{ name: 'wiki', params: { sectionName:link.url } }" 
+      	      					<router-link v-for="(link , linkIndex) in tab.list" :key="linkIndex"
+                           :to="{ name: 'wiki', params: { sectionName:link.url } }"
                            class="wiki__menu-list-item"
                           @click.native.prevent="text = link.list; chousenCategory = index; animate()">{{link.navItem}}
                         </router-link>
@@ -44,20 +44,20 @@
               <div class="text" v-if="animateText" ref="text" data-aos="fade-up">
                 <template v-for="item in text">
                   <div  v-html="item.html" :id="item.url"></div>
-                  <div  v-for="secondaryItems in item.list" 
+                  <div  v-for="secondaryItems in item.list"
                         v-html="secondaryItems.html" :id="secondaryItems.url">
                   </div>
                 </template>
               </div>
             </transition>
             <div class="wiki_nav">
-              <transition name="fade">             
-                <scrollactive active-class="active"  
+              <transition name="fade">
+                <scrollactive active-class="active"
                   class="wiki_nav-list" v-if="animateText" data-aos="fade-in">
                   <template v-for="item in text">
-                    <a class="scrollactive-item wiki_nav-link-main" 
+                    <a class="scrollactive-item wiki_nav-link-main"
                       :href="'#' + item.url" >{{item.title}}</a>
-                    <a class="scrollactive-item wiki_nav-link-secondary"  
+                    <a class="scrollactive-item wiki_nav-link-secondary"
                       v-for="secondaryItems in item.list"
                         :href="'#' + secondaryItems.url" >
                       {{secondaryItems.title}}
@@ -112,7 +112,7 @@ export default {
       this.active = 0;
       this.$router.push({ name: 'wiki', params: { sectionName: this.itemData[0].list[0].url } })
     }
-    
+
     if(this.$mq == "tablet" || this.$mq == "phone"){
       this.burgerActive = false;
     }else{
@@ -149,7 +149,7 @@ export default {
       this.animateText = false;
       setTimeout(()=> this.animateText = true,100)
     }
-    
+
   }
 }
 </script>
@@ -182,8 +182,8 @@ export default {
     height: 16px;
     cursor: pointer;
   }
-  .wiki__menu-burger .line1, 
-  .wiki__menu-burger .line2, 
+  .wiki__menu-burger .line1,
+  .wiki__menu-burger .line2,
   .wiki__menu-burger .line3 {
     display: flex;
     width: 100%;
