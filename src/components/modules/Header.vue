@@ -151,6 +151,11 @@ export default {
           id: 7,
           title: 'Research Areas',
           route: '/research-areas'
+        },
+        {
+          id: 8,
+          title: 'Blog',
+          route: '/blog'
         }
       ]
     }

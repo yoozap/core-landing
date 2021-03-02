@@ -10,6 +10,7 @@ export default new Vuex.Store({
     community: items.community,
     faq: items.faq,
     wiki: items.wiki,
+    blog: items.blog,
     communityNum: 0,
     statistic: items.statistic,
     start: false,
