@@ -234,73 +234,100 @@
     {
       "id": 1,
       "category": "General",
-      "list":[
+      "comment": "for display custom info box put it in <mark> tag ",
+      "tabList":[
         {
           "id": 1,
-          "navItem": "Getting Started",
-          "url": "link1",
-          "list":[
+          "tabGroupTitle": "",
+          "title": "Getting Started",
+          "url": "getstarting",
+          "content":[
             {
-              "id": 1,
+              "id": "",
+              "navGroupTitle": "",
               "title": "Getting Started",
-              "url": "url1",
-              "html": "<h2>Getting Started</h2><p>Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
-              "list":[
-                {
-                  "id": 1,
-                  "title": "What is Polkadot?",
-                  "url": "url2", 
-                  "html": "<h2>What is Polkadot?</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p> <ul><li>some text</li><li>some text</li><li>some text</li></ul><a>some links</a>"
-                }
-              ]
+              "navUrl": "GettingStarted",
+              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+            },
+            {
+              "id": "",
+              "navGroupTitle": "",
+              "title": "What is Polkadot?",
+              "navUrl": "WhatisPolkadot?",
+              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
             }
           ]
         },
         {
           "id": 1,
-          "navItem": "Claims",
-          "url": "link2",
-          "list":[
+          "tabGroupTitle": "Basic",
+          "title": "Architecture",
+          "url": "architecture",
+          "content":[
             {
-              "id": 1,
-              "title": "Making a Claim",
-              "url": "url3",
-              "html": "<h2>Making a Claim</h2><p>If you did not make a claim in the pre-genesis claims period, then you are able to claim your DOT tokens after genesis. There is no time limit for making your claim so feel free to do this whenever you are most comfortable. Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
-              "list":[
-                {
-                  "id": 1,
-                  "title": "What You Will Need",
-                  "url": "url4", 
-                  "html": "<h2>What is Polkadot?</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p>"
-                }
-              ]
+              "id": "",
+              "navGroupTitle": "",
+              "title": "",
+              "navUrl": "",
+              "html": "<h2>Architecture</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+            },
+            {
+              "id": "",
+              "navGroupTitle": "nav with sub",
+              "title": "Roles",
+              "navUrl": "Roles?",
+              "html": ""
+            },
+            {
+              "id": "",
+              "navGroupTitle": "nav with sub",
+              "title": "Validators",
+              "navUrl": "Validators?",
+              "html": " <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa.</p>"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "tabGroupTitle": "Basic",
+          "title": "Polkadot Accounts",
+          "url": "PolkadotAccounts",
+          "content":[
+            {
+              "id": "",
+              "navGroupTitle": "",
+              "title": "Polkadot Accounts",
+              "navUrl": "polkadotaccounts",
+              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
             }
           ]
         }
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "category": "Learn",
-      "list":[
+      "comment": "for display custom info box put it in <mark> tag ",
+      "tabList":[
         {
           "id": 1,
-          "navItem": "Polkadot Launch Phases",
-          "url": "link3",
-          "list":[
+          "tabGroupTitle": "",
+          "title": "Community",
+          "url": "community",
+          "content":[
             {
-              "id": 1,
-              "title": "The PoA Launch",
-              "url": "url5",
-              "html": "<h2>The PoA Launch</h2><p>Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
-              "list":[
-                {
-                  "id": 1,
-                  "title": "Nominated Proof of Stake",
-                  "url": "url6", 
-                  "html": "<h2>Nominated Proof of Stake</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p>"
-                }
-              ]
+              "id": "",
+              "navGroupTitle": "",
+              "title": "General",
+              "navUrl": "General",
+              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+            },
+            {
+              "id": "",
+              "navGroupTitle": "",
+              "title": "Events",
+              "navUrl": "Events",
+              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
             }
           ]
         }
@@ -364,3 +391,4 @@
     }
   ]
 }
+

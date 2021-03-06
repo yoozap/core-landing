@@ -17,9 +17,11 @@ export default new Vuex.Store({
     tabs: items.framework,
     success: false,
     cases: items.cases,
-    techTabs: items.technology
+    techTabs: items.technology,
+    sideMenu: true,
   },
   getters: {
+    getSideMenuState: (state) => state.sideMenu,
   },
   mutations: {
     setMenuStatus (state, data) {
@@ -33,6 +35,9 @@ export default new Vuex.Store({
     },
     setSuccess (state, success) {
       state.success = success
+    },
+    setSideMenuState(state, modalType) {
+      state.sideMenu = modalType;
     }
   },
   actions: {
