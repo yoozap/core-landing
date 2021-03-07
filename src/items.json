@@ -439,7 +439,6 @@
               "navGroupTitle": "nav with sub",
               "title": "Validators",
               "navUrl": "Validators?",
-              "html": " <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa.</p>"
               "url": "url1",
               "html": "<h2>Getting Started</h2><p>Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
               "list":[
