@@ -390,15 +390,56 @@
     {
       "id": 1,
       "category": "General",
-      "list":[
+      "comment": "for display custom info box put it in <mark> tag ",
+      "tabList":[
         {
           "id": 1,
-          "navItem": "Getting Started",
-          "url": "link1",
-          "list":[
+          "tabGroupTitle": "",
+          "title": "Getting Started",
+          "url": "getstarting",
+          "content":[
             {
-              "id": 1,
+              "id": "",
+              "navGroupTitle": "",
               "title": "Getting Started",
+              "navUrl": "GettingStarted",
+              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+            },
+            {
+              "id": "",
+              "navGroupTitle": "",
+              "title": "What is Polkadot?",
+              "navUrl": "WhatisPolkadot?",
+              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "tabGroupTitle": "Basic",
+          "title": "Architecture",
+          "url": "architecture",
+          "content":[
+            {
+              "id": "",
+              "navGroupTitle": "",
+              "title": "",
+              "navUrl": "",
+              "html": "<h2>Architecture</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+            },
+            {
+              "id": "",
+              "navGroupTitle": "nav with sub",
+              "title": "Roles",
+              "navUrl": "Roles?",
+              "html": ""
+            },
+            {
+              "id": "",
+              "navGroupTitle": "nav with sub",
+              "title": "Validators",
+              "navUrl": "Validators?",
+              "html": " <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa.</p>"
               "url": "url1",
               "html": "<h2>Getting Started</h2><p>Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
               "list":[
@@ -414,9 +455,10 @@
         },
         {
           "id": 1,
-          "navItem": "Claims",
-          "url": "link2",
-          "list":[
+          "tabGroupTitle": "Basic",
+          "title": "Polkadot Accounts",
+          "url": "PolkadotAccounts",
+          "content":[
             {
               "id": 1,
               "title": "Making a Claim",
@@ -436,14 +478,23 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "category": "Learn",
-      "list":[
+      "comment": "for display custom info box put it in <mark> tag ",
+      "tabList":[
         {
           "id": 1,
-          "navItem": "Polkadot Launch Phases",
-          "url": "link3",
-          "list":[
+          "tabGroupTitle": "",
+          "title": "Community",
+          "url": "community",
+          "content":[
+            {
+              "id": "",
+              "navGroupTitle": "",
+              "title": "General",
+              "navUrl": "General",
+              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+            },
             {
               "id": 1,
               "title": "The PoA Launch",
@@ -520,3 +571,4 @@
     }
   ]
 }
+

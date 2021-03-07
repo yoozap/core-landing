@@ -17,6 +17,12 @@ import VuePrlx from 'vue-prlx'
 import SlideUpDown from 'vue-slide-up-down'
 import VueScrollactive from 'vue-scrollactive'
 import VueMq from 'vue-mq'
+import Clipboard from 'v-clipboard'
+import vClickOutside from 'v-click-outside'
+
+Vue.use(vClickOutside)
+ 
+Vue.use(Clipboard)
 
 Vue.use(VueMq,{
   breakpoints: {
