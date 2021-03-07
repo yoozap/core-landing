@@ -11,6 +11,7 @@ import Privacy from '../views/Privacy.vue'
 import Proposals from '../views/Proposals.vue'
 import Community from '../views/Community.vue'
 import Wiki from '../views/Wiki.vue'
+import ResearchAreas from '../views/ResearchAreas.vue'
 import Blog from '../views/Blog.vue'
 Vue.use(VueRouter)
 
@@ -24,6 +25,12 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About,
+    meta: { scrollToTop: true }
+  },
+  {
+    path: '/research-areas',
+    name: 'Researchareas',
+    component: ResearchAreas,
     meta: { scrollToTop: true }
   },
   {
@@ -77,7 +84,7 @@ const routes = [
   {
     path: '/wiki',
     component: Wiki,
-    name: 'wiki',
+    name: 'wikiOut',
     children: [
         {
             path: ':sectionName',

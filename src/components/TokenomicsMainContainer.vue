@@ -58,7 +58,7 @@
                 <div class="bottom__description-text">20,000,000,000 CMCX</div>
               </div>
               <div class="bottom__description-item">
-                <div class="bottom__description-ttl">Ofiicial Website</div>
+                <div class="bottom__description-ttl">Official Website</div>
                 <div class="bottom__description-text">coremultichain.com</div>
               </div>
             </div>

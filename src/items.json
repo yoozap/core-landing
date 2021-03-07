@@ -1,4 +1,160 @@
 {
+  "research": [
+    {
+      "id": 1,
+      "title": "Sidechains",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Privacy",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Digital Signatures",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Scripting",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Micropayments",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Micropayments",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Confidential Transactions",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bitcoin Payments",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bitcoin Bandwidth",
+      "links": [
+        {
+          "title": "Borromean Ring Signatures",
+          "subtitle": "A. Poelstra and G. Maxwell. 2015.",
+          "link": "http://google.com/"
+        },
+        {
+          "title": "Bulletproofs — Efficient Range Proofs for Confidential Transactions",
+          "subtitle": "A. Poelstra, P. Wuille, and G. Maxwell. 2017.",
+          "link": "http://google.com/"
+        }
+      ]
+    }
+  ],
   "faq": [
     {
       "id": 1,
@@ -211,7 +367,7 @@
     },
     {
       "id": 3,
-      "title": "Wasmi",
+      "title": "Wasm",
       "text": "Apeirogon is compiled to WebAssembly which is a super performant virtual environment that provides a way to run code written in multiple languages on the web at near native speed. WebAssembly is a fast, efficient, and safe binary instruction format for a stack-based virtual machine. It is a popular choice for the major web browser providers such as Google, Apple, Microsoft, and Mozilla, who all implement it in their web browsers.\n"
     },
     {
@@ -284,6 +440,16 @@
               "title": "Validators",
               "navUrl": "Validators?",
               "html": " <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa.</p>"
+              "url": "url1",
+              "html": "<h2>Getting Started</h2><p>Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
+              "list":[
+                {
+                  "id": 1,
+                  "title": "What is Polkadot?",
+                  "url": "url2",
+                  "html": "<h2>What is Polkadot?</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p> <ul><li>some text</li><li>some text</li><li>some text</li></ul><a>some links</a>"
+                }
+              ]
             }
           ]
         },
@@ -294,11 +460,18 @@
           "url": "PolkadotAccounts",
           "content":[
             {
-              "id": "",
-              "navGroupTitle": "",
-              "title": "Polkadot Accounts",
-              "navUrl": "polkadotaccounts",
-              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+              "id": 1,
+              "title": "Making a Claim",
+              "url": "url3",
+              "html": "<h2>Making a Claim</h2><p>If you did not make a claim in the pre-genesis claims period, then you are able to claim your DOT tokens after genesis. There is no time limit for making your claim so feel free to do this whenever you are most comfortable. Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
+              "list":[
+                {
+                  "id": 1,
+                  "title": "What You Will Need",
+                  "url": "url4",
+                  "html": "<h2>What is Polkadot?</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p>"
+                }
+              ]
             }
           ]
         }
@@ -323,11 +496,18 @@
               "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
             },
             {
-              "id": "",
-              "navGroupTitle": "",
-              "title": "Events",
-              "navUrl": "Events",
-              "html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat ipsum magni harum nihil ut vitae, architecto. Libero, dolor, hic.</p><mark>To watch a short, beginner-friendly animation on Polkadot, check out our Explainer video</mark>"
+              "id": 1,
+              "title": "The PoA Launch",
+              "url": "url5",
+              "html": "<h2>The PoA Launch</h2><p>Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals that want to build on Polkadot), and Maintain (for people that want to maintain the network).</p>",
+              "list":[
+                {
+                  "id": 1,
+                  "title": "Nominated Proof of Stake",
+                  "url": "url6",
+                  "html": "<h2>Nominated Proof of Stake</h2><p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a , can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p>"
+                }
+              ]
             }
           ]
         }

@@ -1,15 +1,15 @@
 <template>
   <div class="body-container proposal-page">
-    <Proposals/>
+    <ResearchAreas/>
   </div>
 </template>
 
 <script>
-import Proposals from '@/components/Proposals.vue'
+import ResearchAreas from '@/components/ResearchAreas.vue'
 export default {
-  name: 'Proposals',
+  name: 'Research',
   components: {
-    Proposals
+    ResearchAreas
   }
 }
 </script>

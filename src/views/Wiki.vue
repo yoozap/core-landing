@@ -124,6 +124,53 @@
                         </router-link>
                       </div>
                     </template>
+  	<div class="body-container">
+	    <div class="container" :class="firstAnimation ? 'animHead' : ''" v-view="visibilityChanged">
+	      	<TopHead/>
+	      	<div class="wiki">
+	      		<div class="wiki__menu">
+              <div class="wiki__menu-top">
+                <div class="wiki__menu-burger"
+                  @click="burgerActive = !burgerActive"
+                  :class="{active:burgerActive}">
+                  <span class="line1"></span>
+                  <span class="line2"></span>
+                  <span class="line3"></span>
+                </div>
+                <div class="wiki__menu-title">{{itemData[chousenCategory].category}}</div>
+              </div>
+              <slide-up-down :active="burgerActive" :duration="1000">
+                <div class="wiki__menu-item-list">
+    	      			<div class="wiki__menu-item" v-for="(tab, index) in itemData"
+                    :class="{active: active == index}">
+    	      				<div class="wiki__menu-head" @click="toggleActive(index)">
+    	      					<h3 :class="{active: chousenCategory == index}">{{tab.category}}</h3>
+                      <svg :class="{active: chousenCategory == index}" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="12" y1="4.37115e-08" x2="12" y2="24" stroke="white" stroke-width="2"/>
+                        <line x1="24" y1="12" x2="-8.74228e-08" y2="12" stroke="white" stroke-width="2"/>
+                      </svg>
+    	      				</div>
+    	      				<slide-up-down class="wiki__menu-list"
+                      :active="active == index" :duration="1000">
+                      <div>
+
+      	      					<router-link v-for="(link , linkIndex) in tab.list" :key="linkIndex"
+                           :to="{ name: 'wiki', params: { sectionName:link.url } }"
+                           class="wiki__menu-list-item"
+                          @click.native.prevent="text = link.list; chousenCategory = index; animate()">{{link.navItem}}
+                        </router-link>
+                      </div>
+    	      				</slide-up-down>
+    	      			</div>
+                </div>
+              </slide-up-down>
+	      		</div>
+            <transition name="fade">
+              <div class="text" v-if="animateText" ref="text" data-aos="fade-up">
+                <template v-for="item in text">
+                  <div  v-html="item.html" :id="item.url"></div>
+                  <div  v-for="secondaryItems in item.list"
+                        v-html="secondaryItems.html" :id="secondaryItems.url">
                   </div>
 	      				</slide-up-down>
 	      			</div>
@@ -161,6 +208,22 @@
                   <path d="M13.8706 20.2576L11.8871 18.2534L16.35 13.7905L2.11426 13.7905L2.11426 10.9806L16.35 10.9806L11.8871 6.51771L13.8706 4.51355L21.7426 12.3856L13.8706 20.2576Z" fill="#00050F"/>
                 </svg>
               </button>
+            </transition>
+            <div class="wiki_nav">
+              <transition name="fade">
+                <scrollactive active-class="active"
+                  class="wiki_nav-list" v-if="animateText" data-aos="fade-in">
+                  <template v-for="item in text">
+                    <a class="scrollactive-item wiki_nav-link-main"
+                      :href="'#' + item.url" >{{item.title}}</a>
+                    <a class="scrollactive-item wiki_nav-link-secondary"
+                      v-for="secondaryItems in item.list"
+                        :href="'#' + secondaryItems.url" >
+                      {{secondaryItems.title}}
+                    </a>
+                  </template>
+                </scrollactive >
+              </transition>
             </div>
           </div>
         </transition>
@@ -216,7 +279,7 @@ export default {
         })
       })
     }
-    
+
     if(this.$mq == "tablet" || this.$mq == "phone"){
       this.burgerActive = false;
     }else{
@@ -314,7 +377,7 @@ export default {
       }
       
     }
-    
+
   }
 }
 </script>
@@ -417,8 +480,8 @@ export default {
     height: 16px;
     cursor: pointer;
   }
-  .wiki__menu-burger .line1, 
-  .wiki__menu-burger .line2, 
+  .wiki__menu-burger .line1,
+  .wiki__menu-burger .line2,
   .wiki__menu-burger .line3 {
     display: flex;
     width: 100%;
