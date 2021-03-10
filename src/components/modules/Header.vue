@@ -155,6 +155,11 @@ export default {
           id: 8,
           title: 'Blog',
           route: '/blog'
+        },
+        {
+          id: 9,
+          title: 'Dashboard',
+          route: '/dashboard'
         }
       ]
     }

@@ -13,6 +13,7 @@ import Community from '../views/Community.vue'
 import Wiki from '../views/Wiki.vue'
 import ResearchAreas from '../views/ResearchAreas.vue'
 import Blog from '../views/Blog.vue'
+import Dashboard from '../views/Dashboard.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -98,6 +99,19 @@ const routes = [
     path: '/blog',
     name: 'Blog',
     component: Blog,
+    meta: { scrollToTop: true }
+  },
+  {
+    path: '/dashboard',
+    component: Dashboard,
+    name: 'dashboard',
+    children: [
+        {
+            path: ':sectionName',
+            name: 'dashboard',
+            component: Dashboard
+        }
+    ],
     meta: { scrollToTop: true }
   },
 ]
