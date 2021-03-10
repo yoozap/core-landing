@@ -46,8 +46,6 @@
 </template>
 
 <script>
-	/*import dashboard from '../components/dashboard/Dashboard'
-	import tokens from '../components/dashboard/Tokens'*/
 	 
 	export default{
 		name: "Dashboard",
